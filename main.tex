@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% --- Packages ---
+\usepackage[usenames, dvipsnames]{color} % Cool colors
+\usepackage{enumerate, amsmath, amsthm, amssymb, mathrsfs, algorithm, algpseudocode, fontawesome, pifont, subfig, fullpage, csquotes, dashrule, tikz, bbm, booktabs, bm, hyperref, wasysym}
+\usepackage{blindtext, microtype, graphicx, wrapfig, enumitem, fancyhdr, index}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage[numbers]{natbib}
+\usepackage[normalem]{ulem}
+
+% --- Misc. ---
+\hbadness=10000 % No "underfull hbox" messages.
+\setlength{\parindent}{0pt} % Removes all indentation.
+
+% -- Commands --
+\input{commands}
+
+\begin{document}
+\title{CVPR 2019 Notes \\ \Large{Long Beach, CA, USA}}
+\author{Shuai Chen \\ \durl{shuaic92@gmail.com}}
+\date{June 2019}
+
+\maketitle
+\tableofcontents
+\newpage
+
+This documents contains notes I took during CVPR 2019 conference in Long Beach, CA, USA. My motivation of making this document came from the inspiration of David Abel\footnote{\durl{http://david-abel.github.io}}. Please feel free to distribute it as well as correcting my typos and mistakes. My email is \durl{shuaic92@gmail.com}.
+
+\section{Conference Highlights}
+This was my first time took part in such an awesome academic conference. Most of my time spent in Deep Learning \& Computational Photography related topics. However, I would also update some topics that I found interesting.
+\begin{enumerate}
+    \item Around 10,000 people attend this year's conference. About 1300 papers were accepted in CVPR 2019. Reports saying number of attendees projected in 2035 will be over 1 million :). See Figure \ref{fig:Conf_HL1}.
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/Image1.jpeg}
+        \caption{projection of attendees to reach 1 million by 2035}
+        \label{fig:Conf_HL1}
+    \end{figure}
+    
+    \item Comparing to last year, the number of papers accepted in CVPR 2019 increased about 30\%. However, due to the fact that the number of papers submitted this year has increased 56.2\%, thus the paper acceptance rate reduced 4\% this year. See Figure \ref{fig:Conf_HL2}.
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/Image2.png}
+        \caption{papers acceptance rate is 4\% lower in CVPR 2019}
+        \label{fig:Conf_HL2}
+    \end{figure}
+    
+    \newpage
+    \item Some of hot keywords in CVPR 2019 submission: Image, detection, 3d, object, video, segmentation, adversarial, recognition, visual. See Figure \ref{fig:Conf_HL3}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/Image3.jpeg}
+        \caption{hot submission keywords CVPR 2018 vs. CVPR 2019}
+        \label{fig:Conf_HL3}
+    \end{figure}
+    
+    \item Meta-learning, One-shot/Few-shots learning, Graph Neural Networks started to emerging this year.
+    \item It's great to see a lot of fast pace improvement towards real-life low level image processing field.
+    \item Network Architecture Search is also another very popular topic. Great to see a burst of diverse solutions in this field.
+    \item Generative Adversarial Network is a hot topic again. Exciting progress were made again this year.
+\end{enumerate}{}
+
+% ------------
+% -- Sunday --
+% ------------
+\newpage
+\section{Sunday June 16th: Tutorials \& Workshops}
+\input{days/sunday_6_16_19.tex}
+
+\end{document}
